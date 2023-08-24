@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.line {
+  border-top: 1px solid #ccc;
+  margin: 15px 0;
+}
+.container {
+  position: relative;
+}
+
+.navbar {
+  position: absolute;
+  top: 30px;
+  left: 170px;
+  transform: translateX(-50%);
+  z-index: 2;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-top: 50px;
+  font-family: fantasy;
+  color: orange;
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+
+.intro {
+  background-image: url("E:/OASIS Projects/landing page_WorkFitGo/images/pexels-photo-841130.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  padding: 400px;
+  padding-left: 280px;
+  color: orange;
+  font-size: 17px;
+}
+
+.overlay h1 {
+  font-size: 25px;
+}
+h1:hover {
+  cursor: pointer;
+}
+.form-container {
+  background-color: #0f2224;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  margin-left: 800px;
+  margin-top: -130px;
+  width: 400px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.radio-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.radio-group label {
+  margin-right: 10px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+div button {
+  background-color: #ff9f00;
+  background-image: linear-gradient(45deg, #ff9f00, #ffb339);
+  margin-top: 20px;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 15px;
+  background-color: #ff9f00;
+  background-image: linear-gradient(45deg, #ff9f00, #ffbf59);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+button:hover {
+  transform: scale(1.05);
+}
+.form-group.checkbox-group {
+  display: flex;
+  align-items: center;
+}
+
+#privacy_policy {
+  margin-right: 5px;
+}
+.content {
+  width: 100%;
+  height: 550px;
+  background-color: #fcfcfc;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+.pass {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 30px;
+}
+.subscription-card {
+  width: 400px;
+  height: 300px;
+  border-radius: 5px;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 40px;
+  font-size: 25px;
+  display: inline-block;
+  margin-left: 230px;
+  background: linear-gradient(180deg, #0f2224, #4a6770);
+  transition: transform 0.2s;
+}
+
+.title {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+.description {
+  font-size: 20px;
+  text-align: center;
+}
+
+.subscription-card:hover {
+  cursor: default;
+  transform: scale(1.05);
+}
+/*********************************************************************/
+.adv-container {
+  display: flex;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #4a6770;
+  color: white;
+  font-weight: bold;
+}
+.pic img {
+  height: auto;
+  width: 500px;
+}
+.text-container2 {
+  margin-left: 250px;
+  font-size: 20px;
+}
+
+.text-container {
+  flex: 1 1 auto;
+  margin-left: 250px;
+  font-size: 20px;
+}
+
+.custom-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0f2224;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.custom-button:hover {
+  background-color: #ff9f00;
+}
+.adv-container2 {
+  display: flex;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #829faa;
+  color: white;
+  font-weight: bold;
+}
+.pic2 {
+  margin-left: auto;
+}
+.pic2 img {
+  height: auto;
+  width: 570px;
+}
+/************************************************/
+.faq-container {
+  background-color: #e6e6e6;
+  height: 900px;
+}
+.faq-container h1 {
+  padding-top: 50px;
+  margin-left: 630px;
+}
+.faq {
+  margin-top: 45px;
+  margin-bottom: 50px;
+  margin-left: 450px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.faq:hover,
+.faq:focus {
+  transform: scale(1.02);
+}
+
+h1 span:hover {
+  transform: scale(1.2);
+  color: #ff6600; /* Change color on hover */
+}
+.line1 {
+  width: 750px;
+  height: 1px;
+  background-color: #ccc;
+  margin: 0 auto 0 270px;
+}
+h3 {
+  margin-bottom: 10px;
+}
+faq p {
+  font-size: 18px;
+}
+footer {
+  text-align: center;
+  color: #f2f2f2;
+  padding: 10px 0;
+  background-color: #0f2224;
+  cursor: default;
+  height: 110px;
+  padding-top: 30px;
+  line-height: 1.6
+  ;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  color: #ff6600; /* Change color on hover */
+}
