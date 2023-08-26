@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>WorkFitGo.Com</title>
+  
+</head>
+
+<body>  <div class="container">
+    <header>
+      <nav class="navbar">
+        <h1 class="logo">WorkFitGym.com</h1>
+      </nav>
+      <div class="intro">
+        <div class="overlay">
+          <div class="overlay-content">
+            <h1>Your Workout, Your Day!</h1>
+            <p>
+              Get your daily dose of movement from home or on the go,
+              <br>
+              with over 500 workouts for your level & goals.
+            </p>
+            <!-- Your form and other content here -->
+            <div class="form-container">
+              <h2 style="text-align: center">Join Us Today</h2>
+              <div class="line"></div>
+              <form action="registration_process.php" method="POST">
+                <div class="radio-group">
+                  <label>Membership Type:</label>
+                  <input type="radio" id="personal" name="membership_type" value="personal" required />
+                  <label for="personal">Personal</label>
+                  <input type="radio" id="family" name="membership_type" value="family" required />
+                  <label for="family">Family</label>
+                </div>
+                <div class="form-group">
+                  <label for="full_name">Full Name</label>
+                  <input type="text" id="full_name" name="full_name" placeholder="Enter your full name" required />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" placeholder="Enter your email address" required />
+                </div>
+                <div class="form-group">
+                  <label for="password">Password</label>
+                  <input type="password" id="password" name="password" placeholder="Choose a password" required />
+                </div>
+                <div class="radio-group">
+                  <label for="gender">Gender:</label>
+                  <input type="radio" id="male" name="gender" value="male" />
+                  <label for="male">Male</label>
+                  <input type="radio" id="female" name="gender" value="female" />
+                  <label for="female">Female</label>
+                </div>
+                <div class="form-group checkbox-group">
+                  <input type="checkbox" id="privacy_policy" name="privacy_policy" required />
+                  <label for="privacy_policy">I agree to the privacy policy and terms of use</label>
+                </div>
+                <button type="submit">Register</button>
+              </form>
+            </div>
+          </div>
+        </div>
+    </header>
+
+    <main>
+      <div class="content">
+        <p class="pass">Our Pass Type</p>
+        <div class="line"></div>
+
+        <div class="subscription-card ">
+          <div class="title">Monthly Subscription</div>
+          <div class="line"></div>
+
+          <div class="description">
+            Unlock unlimited access to our fitness platform with a hassle-free monthly subscription. Enjoy personalized
+            workouts, progress tracking, and exclusive member benefits.
+            <div>
+              <button>Subscribe</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="subscription-card ">
+          <div class="title">Pay as You Go</div>
+          <div class="line"></div>
+
+          <div class="description">
+            Flexibility at its best! Pay for the workouts you use. With our Pay-as-You-Go option, you have the freedom
+            to exercise whenever you want without any commitments.
+            <div><button>Subscribe</button></div>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="adv-container">
+        <div class="pic">
+          <img src="E:\OASIS Projects\landing page_WorkFitGo\images\freind.jpg" alt="friends in gym">
+        </div>
+        <div class="text-container">
+          <p>Refer a Friend</p>
+          <p>Give $10 off to a friend or family member</p>
+          <div class="custom-button">Refer a Friend</div>
+        </div>
+      </div>
+      <div class="adv-container2">
+        <div class="text-container2">
+          <div style="text-align: left; padding: 20px;">
+            <p style="color: #0f2224; margin: 0;">WorkFitGo.com blog</p>
+            <p style="font-size: 15px; margin: 5px 0 0;">Fitness related news, reviews and expert advice to support the WorkFitGo community.</p>
+            <div class="custom-button">Visit our blog</div>
+          </div>
+        </div>
+        <div class="pic2">
+          <img src="E:\OASIS Projects\landing page_WorkFitGo\images\phone.jpg" alt="gym player holding phone">
+        </div>
+      </div>
+      
+      <div class="faq-container">
+        <h1><span style="display: inline-block; transition: transform 0.2s">FAQs</span></h1>
+
+        <div class="faq">
+            <h3>What types of memberships does WorkFitGo offer?</h3>
+            <p style="line-height: 1.5; ">we offer
+              a range of membership options tailored to your needs:<br>
+
+
+               <b>1)Monthly Membership:</b> Provides flexibility for newcomers or those preferring short-term commitment.
+             <br> <b>2)Quarterly Membership:</b> Offers a balance between commitment and flexibility.
+              <br><b>3)Annual Membership:</b> Ideal for dedicated individuals seeking value and benefits.</p>
+        </div>
+        <div class="line1"></div>
+
+        <div class="faq">
+            <h3>What facilities are available at WorkFitGo?</h3>
+            <p class="line-spacing">Discover the exceptional facilities at WorkFitGo designed to cater to your fitness needs.<br>
+               Step into our Cardio Zone, equipped with cutting-edge machines 
+              for enhanced  fitness. <br>
+              Unleash your strength in our dedicated Strength 
+           featuring free weights and resistance machines.<br>
+               Experience 
+              the synergy of community and motivation in our Group Classes led by expert instructors.
+              </p>
+          </div>
+        <div class="line1"></div>
+
+        <div class="faq">
+            <h3>Can I get personalized fitness guidance?</h3>
+            <p>Absolutely! At WorkFitGo, our certified trainers provide personalized one-on-one sessions <br>
+              tailored to your fitness goals. With expert guidance and motivation, you can <br>
+              achieve exceptional results on your fitness journey.</p>
+        </div>
+        <div class="line1"></div>
+
+        <div class="faq">
+            <h3>How do I sign up for a membership?</h3>
+            <p>Signing up for a membership at WorkFitGo is hassle-<b>free.</b>
+               You have two convenient options: <br><b>online and in-person.</b> Online, simply visit WorkFitGo.com, 
+               pick your desired membership plan <br>(Monthly, Quarterly, or Annual),
+                and complete the secure registration process. 
+                <br>If you prefer a personal touch, come visit our gym,
+                 where our staff will guide you through the selection <br>
+                 and registration process in person.
+               We've made joining WorkFitGo easy, so you 
+               can focus on your fitness journey with us.</p>
+        </div>
+    </div>
+  
+    </main>
+  </div>
+  <footer><p>&copy; 2023 All rights reserved | Esraa Alshaikh</p>
+    
+
+    <p>
+      <a href="#">Help</a>
+      <a href="#">Blog</a>
+      <a href="#">Terms &amp; Conditions</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Partnerships</a>
+      <a href="mailto:esraacit01@gmail.com"><span style="color: #ff6600;"> Contact me</span> </a>
+    </p>
+
+  </footer></footer>
+</body>
+
+</html>
