@@ -1,2 +1,2 @@
 # OIBSIP
-Greetings! 👋 Repository chronicling my enriching internship journey with Oasis Infobyte. During this experience, I've successfully tackled various front-end tasks, honing my proficiency in HTML and CSS. My exploration led me to grasp essential techniques like Flexbox, Modelbox, and Grid layout. Stay tuned for insights and updates!
+Hello! 👋 I'm sharing my internship experience with Oasis Infobyte in a repository. Throughout this time, I've worked on different front-end tasks and improved my skills in HTML and CSS. I've also learned important techniques like Flexbox and Modelbox. I'll keep you updated with insights and news!
